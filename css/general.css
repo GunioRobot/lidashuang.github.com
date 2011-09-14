@@ -3,70 +3,46 @@
 /* Created by Pam Atkins, February 2011 for distribution via http://freehtml5templates.com*/
 
 body {
-	font-family: Tahoma, Helvetica, sans-serif;
+	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 14px;
-	background-image: url(images/bg.jpg);
-	background-repeat: repeat;
-	background-color: #000;
+   	background-color: #F3F3F3;
 }
+.outerwrapper {
 
-div#outerwrapper {
-	margin: 20px auto;
-	width: 960px;
-	background-color: #CEC7AA;
-	-moz-box-shadow: 0 0 3px 3px #333;
-   -webkit-box-shadow: 0 0 3px 3px #333;
-    box-shadow: 0 0 3px 3px #333;
-    -moz-border-radius: 4px 4px 4px 4px;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px;
+    background-image: url(images/stainedpaper.png);
+	width: 966px;
+	margin: 0 auto;
+    -moz-box-shadow: 0 0 3px 3px #888;
+    -webkit-box-shadow: 0 0 3px 3px #888;
+    box-shadow: 0 0 3px 3px #888;
+  margin-top: 10px;
 }
-
-/* Common  Classes  */
+/* ** ** Common Classes ** ** */
 .left  { float:left}
 .right { float:right}
 .clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0px; height:0px;}
 .hide  { display:none}
-
-.align_right    { text-align:right;}
-.align_left     { text-align:left;}
-.align_center   { text-align:center;}
-
-
-a {	color:#525252;	}
+a 	{color:#eee;}
 a:hover, a:focus { text-decoration:underline;}
-a:active, a:visited { color: #555; }
-
-
-/* Header Styles */
-h1 {	font-size:2em; line-height: 200%; font-family: Georgia, serif;}
-h2 {	font-size:1.5em;line-height: 200%; font-family: Georgia, serif;}
-h3 {	font-size:1.1em;} 
-
-
-
-
-/* custom select color  */
-::selection {
-	background: #525252; /* Safari */
-	}
-::-moz-selection {
-	background: #525252; /* Firefox */
-	color:#fff;
+a:active, a:visited {color:#ccc; }
+/* ** ** Header Styles ** ** */
+h1, h2, h3, h4 {margin:0 0 0.2em;}
+/* ** ** ul li's ** ** */
+ul li
+{
+	margin-left:25px;
 }
 
 /* ** ** paragraph styling ** ** */
-p {margin:0 0 1.2em;}
-	p img.left {float:left;margin:1.52em 1.52em 1.52em 0;padding:0;}
-	p img.right {float:right;margin:1.52em 0 1.52em 1.52em;}
+p {margin:0 0 1.52em;}
+p img.left {float:left;margin:1.52em 1.52em 1.52em 0;padding:0;}
+p img.right {float:right;margin:1.52em 0 1.52em 1.52em;}
 
-/* ** ** forms ** ** */
-form fieldset {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius:5px; padding-top:5px; padding-left:5px; border:1px solid #ccc; }
-form fieldset legend {font-size:1.4em; padding:0 5px;}
-form input[type=text], form input[type=email], form input[type=url] {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; height:20px; margin-bottom:5px; border:1px solid #ccc; padding:4px 0 1px 5px;}
-form label {display:block; height:20px; font-size:1.2em;}
+.clear {
+	height: 20px;
+}
 
-/* layout styling */
+/* layout styling*/
 .col {
 	margin-left:10px; margin-right:10px;
 	display: inline;
@@ -74,66 +50,84 @@ form label {display:block; height:20px; font-size:1.2em;}
 	float: left;
 	position: relative;
 }
-
 .row{
 	width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
 }
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+.col_4 {	width:220px; }
 
-.col_12{ width:700px; }
-.col_4 { width:220px; }
+.col_8 {	width:460px; }
 
+.col_16{	width:940px; }
 
-
-p.menuboxes {
-    -moz-border-radius: 4px 4px 4px 4px;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    background: none repeat scroll 0 0 #D9D4B7;
-    float: left;
-    margin: 2em 10px 4em;
-    padding: 1em;
-    position: relative;
-    width: 80%;
-	 font-weight: bold;
-	 text-transform: uppercase;
+/* header styling */
+header .row {
+	text-align: center;
+}	
+header .row h1 {
+	text-transform: uppercase;
+	font-size: 66px;
+	padding-top: 5px;
+	line-height:1.05em;
+}
+header .row h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+ .subhead {
+  border-bottom: #333 double;
 }
 
-p.menuboxes a {
-color: #000;
-font-weight: bold;
-text-decoration: none;
+.subhead *{
+	font-weight: bold;
 }
 
-p.menuboxes a:hover {
-text-decoration: underline;
+/* nav */
+nav {
+	border-bottom: double #333;  line-height: 200%;
+}
+nav li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+text-transform: uppercase;
+}
+nav li a:link, nav li a:visited  {
+  text-decoration: none; color: #444444;
+  font-weight:bold;
 }
 
-p.menuboxes img{
-  vertical-align: middle;
-  padding-left: 10px;
+nav li a:hover {
+  color: #000;  text-decoration: none;  font-weight:bold;
 }
 
-.contentboxes {
-    -moz-border-radius: 4px 4px 4px 4px;
-    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    background: none repeat scroll 0 0 #D9D4B7;
-    float: left;
-    margin: 2em 10px 4em;
-    padding: 1em;
-    position: relative;
-    width: 90%;
-
+nav li a:active {
+  background-color: #222222; color: #DDDDDD;
 }
 
 
+/* ** ** forms ** ** */
+form fieldset legend {
+  font-size:1.4em; padding:0 5px;}
 
+form label {
+  display:block; height:20px; font-size:1.2em;}
 
+.subhead input {
+ 
+  width: 200px;
+  background: #DDD;
+}
+
+/* ** ** footer ** ** */
+
+footer {
+  border-top: double #333; line-height: 200%; text-align: center;
+}
