@@ -10,6 +10,7 @@ layout: blog-post
 ---
 django notes
 
+
 **目录结构**  
 ├── settings.py  
 ├── media  
