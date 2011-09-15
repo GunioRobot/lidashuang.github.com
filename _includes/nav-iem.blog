@@ -1,0 +1,10 @@
+<h1>
+	<a href="/" title="learning blog">blog</a>
+	<span class="byline">&larr; <a href="/">lidashuang</a></span>
+</h1>
+<ul class="nav">
+  <li><a class="home" href="/">Home</a></li>
+  <li><a class="info" href="/info.html">Info</a></li>
+  <li><a class="past" href="/past.html">Past</a></li>
+  <li><a class="kith" href="/kith.html">Kith</a></li>
+</ul>
