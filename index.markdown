@@ -4,10 +4,10 @@ title: Home
 section: Home
 
 feed: atom.xml
-keywords: Machine Learning, Statistics, Blog, Research, Academia
+keywords: lidashuang, Blog
 ---
 
-Thoughts on Machine Learning and Inference
+lidashuang's note code and so on 
 ==========================================
 
 _Hi My name_ is [lidashuang](/)'s 
