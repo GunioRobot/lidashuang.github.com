@@ -6,7 +6,7 @@ layout: blog
 
 ---
 
-About _Inductio ex Machina_
+About Me
 ===========================
 
 [I][] started this blog in [September 2007][start] shortly after I began my
@@ -33,20 +33,6 @@ Popular Posts
 If you are looking for a place to dive in, you could start with my most popular 
 posts. These are:
 
-* [Behold! Jensen's Inequality][jensen]---Unsatisfied with the very algebraic 
-and formal proofs of Jensen's inequality, I present a diagram that gives a 
-graphical intuition for the result.
-
-* [Warning! High Dimensions Ahead][highdim]---A very counter-intuitive 
-result that highlights the danger of reasoning about higher dimensional space by 
-analogy with lower dimensional ones.
-
-* [Prediction and the Axiom of Choice][aoc]---Some thoughts on Hardin and 
-Taylor's paper "A Peculiar Connection Between the Axiom of Choice and Predicting 
-the Future"
-
-* [The Mathematical Grue][grue]---Doing mathematics sometimes feels like playing 
-a piece of interactive fiction.
 
 [highdim]: /iem/warning-high-dimensions.html
 [jensen]: /iem/behold-jensens-inequality.html
