@@ -4,14 +4,13 @@ title: Archives
 section: Past
 
 feed: atom.xml
-keywords: Machine Learning, Statistics, Blog, Research, Academia
+keywords: 
 ---
 
 Archives
 ========
 
-This is the complete archive of posts from _[inductio ex machina](/)_
-in reverse chronological order.
+Archives
 
 {% for post in site.categories.blog %}
 <div class="section list">
@@ -24,6 +23,7 @@ in reverse chronological order.
 </div>
 {% endfor %}
   
+<!--
 <script type="text/javascript">
 //<![CDATA[
 (function() {
@@ -38,3 +38,4 @@ in reverse chronological order.
 	})();
 //]]>
 </script>
+-->
