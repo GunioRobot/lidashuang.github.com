@@ -10,11 +10,9 @@ keywords: Machine Learning, Statistics, Blog, Research, Academia
 Thoughts on Machine Learning and Inference
 ==========================================
 
-_Inductio Ex Machina_ is [Mark Reid](/)'s research blog on machine 
-learning and statistical inference. 
+_Hi My name_ is [lidashuang](/)'s 
 
-More [information](info.html) about this blog, its [kith](kith.html) (blogroll, 
-bookmarks, _etc._), and a complete archive of [past](past.html) posts, are 
+More [information](info.html) about this blog and a complete archive of [past](past.html) posts, are 
 available via links at the top of the page.
 
 [![Feed icon](/css/feed-icon-14x14.png){:title="Atom feed of recent posts" .right}][feed]
@@ -39,7 +37,7 @@ Recent Posts
 <p>
 <a href="past.html">Older Posts &rarr;</a>
 </p>
-
+<!--
 <script type="text/javascript">
 //<![CDATA[
 (function() {
@@ -54,3 +52,4 @@ Recent Posts
 	})();
 //]]>
 </script>
+-->
