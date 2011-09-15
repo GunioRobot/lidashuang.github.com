@@ -12,7 +12,7 @@ Archives
 
 Archives
 
-{% for post in site.categories.blog %}
+{% for post in site.posts %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
