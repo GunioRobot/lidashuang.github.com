@@ -1,7 +1,7 @@
 ---
 title: django 静态文件的处理
 
-excerpt: 
+excerpt: django 中css,js,image文件处理
 
 location: 
 
