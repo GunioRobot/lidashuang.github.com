@@ -5,7 +5,7 @@ excerpt: Thoughts on a number of recent prediction services including the Google
 
 location: Canberra, Australia
 
-layout: iem-post
+layout: blog-post
 
 ---
 
