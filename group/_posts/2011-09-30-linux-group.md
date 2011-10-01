@@ -10,6 +10,7 @@ layout: blog-post
 ---
 
 讲座非常成功，内容涉及到了linux下工具链及linux驱动加载机制，git等版本管理的使用。
+python 基础入门等。
 
 *合影*
 
