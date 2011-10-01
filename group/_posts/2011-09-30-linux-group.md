@@ -12,3 +12,4 @@ layout: blog-post
 *合影*
 
 <a href="http://www.yupoo.com/photos/lidashuang/82911629/" title="IMG_2869"><img src="http://pic.yupoo.com/lidashuang/BpvUY989/medium.jpg" alt="IMG_2869" width="500" height="375" border="0" /></a>
+<a href="http://www.yupoo.com/photos/lidashuang/82911660/" title="IMG_2819"><img src="http://pic.yupoo.com/lidashuang/BpvVlIsH/medium.jpg" alt="IMG_2819" width="500" height="375" border="0" /></a>
