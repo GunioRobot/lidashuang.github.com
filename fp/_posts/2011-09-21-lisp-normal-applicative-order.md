@@ -1,7 +1,7 @@
 ---
 title: lisp里的应用序和正则序
 
-excerpt: 
+excerpt:  最近看计算机程序的构造与解释，遇到正则序与应用序问题。
 
 location: 
 
