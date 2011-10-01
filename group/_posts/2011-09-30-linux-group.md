@@ -9,6 +9,8 @@ layout: blog-post
 
 ---
 
+讲座非常成功，内容涉及到了linux下工具链及linux驱动加载机制，git等版本管理的使用。
+
 *合影*
 
 <a href="http://www.yupoo.com/photos/lidashuang/82911629/" title="IMG_2869"><img src="http://pic.yupoo.com/lidashuang/BpvUY989/medium.jpg" alt="IMG_2869" width="500" height="375" border="0" /></a>
