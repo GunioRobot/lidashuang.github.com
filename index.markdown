@@ -10,7 +10,7 @@ keywords: lidashuang, Blog
 lidashuang's note code and so on 
 ==========================================
 
-_Hi My name_ is [lidashuang](/)'s 
+My name_ is [lidashuang](/)'s 
 
 More [information](info.html) about this blog and a complete archive of [past](past.html) posts, are 
 available via links at the top of the page.
