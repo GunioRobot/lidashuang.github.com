@@ -7,7 +7,7 @@ feed: atom.xml
 keywords: 
 ---
 
-Archives
+归档
 ========
 
 Archives
@@ -22,20 +22,3 @@ Archives
   <p class="excerpt">{{ post.excerpt }}</p>
 </div>
 {% endfor %}
-  
-<!--
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-		var links = document.getElementsByTagName('a');
-		var query = '?';
-		for(var i = 0; i < links.length; i++) {
-			if(links[i].href.indexOf('#disqus_thread') >= 0) {
-				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-			}
-		}
-		document.write('<script type="text/javascript" src="http://disqus.com/forums/markreid/get_num_replies.js' + query + '"></' + 'script>');
-	})();
-//]]>
-</script>
--->
