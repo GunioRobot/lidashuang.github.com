@@ -10,12 +10,14 @@ About Me
 ===========================
 计算机科学与技术专业，热爱技术，喜欢分享，交流。学过c python,对函数式编程感觉兴趣。
 
+email: **lidashuang@sdutlinux.org**
+
 
 
 [jekyll]: http://github.com/mreid/jekyll/
 [markdown]: http://daringfireball.net/projects/markdown/
 
-Licence
--------
+文字协议
+--------------
 
 licensed under  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.
