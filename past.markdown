@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-post
 title: Archives
 section: Past
 

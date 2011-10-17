@@ -2,7 +2,7 @@
 title: About
 section: Info
 
-layout: blog
+layout: blog-post
 
 ---
 
