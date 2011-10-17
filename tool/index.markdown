@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 函数式编程
-section: Home
+section: tool
 
 feed: atom.xml
 keywords: lidashuang, Blog
