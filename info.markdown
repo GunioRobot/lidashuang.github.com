@@ -12,7 +12,8 @@ About Me
 
 email: **lidashuang@sdutlinux.org**
 
-
+最近感兴趣的书
+<script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=wishlist&amp;n=9&amp;columns=9&amp;hidelogo=yes&amp;cat=book" ></script>
 
 [jekyll]: http://github.com/mreid/jekyll/
 [markdown]: http://daringfireball.net/projects/markdown/
