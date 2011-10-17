@@ -20,7 +20,23 @@ feed: atom.xml
     <span class="location">{{ page.location }}</span>
   </address>
 </div><!-- End Page -->
+<div id="bm_comments"></div>
+<script type="text/javascript">
 
+	var bm_url = "";        // 页面链接，默认当前页面URL
+	var bm_title = "";      // 页面标题，默认为 <title>
+	// 页面标识，对每个页面设置个不同的值，默认用bm_url的值来区分，如果同一页面有不同URL，
+	// 比如URL包含了一些分页、或者其它参数，可以设置此值。
+	var bm_identify = "";
+	var bm_placeholder = ""; // (高级选项)，如果您想在别的地方放置评论，可以在这儿输入那个元素的ID
+	var bm_picture = "";   // 分享一个图片，需要绝对路径，以http://开头
+
+	(function(){
+		 var script = document.createElement('script'); script.type = "text/javascript";
+		 script.src = "http://baye.me/script?key=6262917af8ae11e09d3512314303b429";
+		 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+	 })();
+</script>
 <!-- Delicious hits
 <script type="text/javascript">
     if (typeof window.Delicious == "undefined") window.Delicious = {};
@@ -31,8 +47,8 @@ feed: atom.xml
 
 
 <!-- Discus Comments -->
-<div id="disqus_thread"></div>
-
+<!--<div id="disqus_thread"></div>-->
+<!--
 <!-- Enable Disqus comments -->
 <script type="text/javascript">
 	var disqus_iframe_css = "http://mark.reid.name/css/screen.css";
@@ -40,7 +56,7 @@ feed: atom.xml
 	var disqus_message = "{{ page.excerpt }}";
 </script>
 <script type="text/javascript" src="http://disqus.com/forums/markreid/embed.js"></script>
-
+-->
 <!--
 <noscript>
 		<a href="http://markreid.disqus.com/?url=ref">View the discussion thread.</a>
