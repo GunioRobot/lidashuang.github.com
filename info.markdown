@@ -2,12 +2,13 @@
 title: About
 section: Info
 
-layout: blog-post
+layout: blog
 
 ---
 
 About Me
 ===========================
+
 计算机科学与技术专业，热爱技术，喜欢分享，交流。学过c python,对函数式编程感觉兴趣。
 
 email: **lidashuang@sdutlinux.org**
