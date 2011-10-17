@@ -1,7 +1,7 @@
 ---
 title: Hello world in clojure 
 
-excerpt: clojure
+excerpt: clojure 一门jvm上的lisp方言
 
 location:
 
