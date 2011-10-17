@@ -16,7 +16,8 @@ layout: blog-post
 * 正则表达式讲解 李大双   
 * 小组发展交流  
 
-核心成员合影
-<a href="http://www.flickr.com/photos/lidashuang/6253984580/" title="Flickr 上 ldshuang 的 Screenshot at 2011-10-18 05:40:06"><img src="http://farm7.static.flickr.com/6116/6253984580_581306bff1.jpg" width="500" height="177" alt="Screenshot at 2011-10-18 05:40:06"></a>
+核心成员合影  
+
+<a href="http://www.flickr.com/photos/lidashuang/6253984580/" title="Flickr 上 ldshuang 的 Screenshot at 2011-10-18 05:40:06"><img src="http://farm7.static.flickr.com/6116/6253984580_581306bff1_z.jpg" width="640" height="226" alt="Screenshot at 2011-10-18 05:40:06"></a>
 
 
