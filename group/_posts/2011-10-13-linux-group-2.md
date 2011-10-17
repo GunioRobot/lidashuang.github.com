@@ -20,4 +20,4 @@ layout: blog-post
 
 <a href="http://www.flickr.com/photos/lidashuang/6253984580/" title="Flickr 上 ldshuang 的 Screenshot at 2011-10-18 05:40:06"><img src="http://farm7.static.flickr.com/6116/6253984580_581306bff1_z.jpg" width="640" height="226" alt="Screenshot at 2011-10-18 05:40:06"></a>
 
-
+<a href="http://www.flickr.com/photos/lidashuang/6253430019/" title="Flickr 上 ldshuang 的 IMG_3103"><img src="http://farm7.static.flickr.com/6240/6253430019_34f6a57417_z.jpg" width="640" height="480" alt="IMG_3103"></a>
