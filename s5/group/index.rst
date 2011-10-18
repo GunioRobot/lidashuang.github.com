@@ -196,7 +196,7 @@ That's All!
 email 
 =====================
 
-.. class:: takahashi3
+.. class:: takahashi2
     
     lidashuang@sdutlinux.org
 
