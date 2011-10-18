@@ -193,12 +193,22 @@ That's All!
     
     Q&A
 
+email 
+=====================
+
+.. class:: takahashi5
+    
+    lidashuang@sdutlinux.org
 
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__
 ==================================================
 
+create by
+
 - S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
 - 仅用 CSS+JS 实现的HTML格式幻灯演示工具 
+- vim 编辑器之神 
+- git 分布式代码管理工具
 
 
 
