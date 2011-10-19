@@ -29,8 +29,8 @@ body {
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
 /*img { -ms-interpolation-mode:bicubic; }*/
+img:hover{border:1px solid #FF8C00;background:#FF8C00;}
 img {
-	max-width: 770px;
 	margin: 5px;
 	padding: 5px;
 	border: 1px solid #EEE;
