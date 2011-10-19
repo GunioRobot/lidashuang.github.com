@@ -28,12 +28,14 @@ body {
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
-/*img { -ms-interpolation-mode:bicubic; }*/
-img:hover{border:1px solid #EEE;background:#FF8C00;}
+/*img { -ms-interpolation-mode:bicubic; }
+img:hover{border:1px solid #EEE;background:#FF8C00;}*/
 img {
-	margin: 5px;
+	border: none;
 	padding: 5px;
-	border: 1px solid #EEE;
+	-moz-box-shadow: 0 0 8px #ccc;
+	-webkit-box-shadow: 0 0 8px #ccc;
+	box-shadow: 0 0 8px #ccc;
 	-moz-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
