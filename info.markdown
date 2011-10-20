@@ -19,8 +19,9 @@ About Me
 email: **lidashuang@sdutlinux.org**
 
 Reading 
+<div>
   <script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=dolist&amp;n=9&amp;columns=9&amp;cat=book" ></script>
-
+</div>
 
 [jekyll]: http://github.com/mreid/jekyll/
 [markdown]: http://daringfireball.net/projects/markdown/
