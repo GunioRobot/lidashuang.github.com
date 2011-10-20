@@ -29,7 +29,7 @@ body {
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
 img { -ms-interpolation-mode:bicubic; }
-img:hover{border:1px solid #ccc;background:#ccd;}
+img:hover{border:1px solid #ccc;background:#ccc;}
 
 img {
 	border: none;
