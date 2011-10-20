@@ -48,8 +48,7 @@ Reading
 			Powered by 
 			<a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
 			<a href="http://www.vim.org">vim</a>
-			<a href="http://www.osser.me">git</a>
-			<a href="https://github.com">gitub</a>
+			<a href="https://github.com">git&gitub</a>
 		</span>
 	</address>
   </div>
