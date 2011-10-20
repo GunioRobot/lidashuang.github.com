@@ -12,7 +12,7 @@ About Me
 
 
 计算机科学与技术专业，热爱技术，喜欢分享，交流。	  
-兴趣 linux c python clojure vim ...
+兴趣 linux, c, python, clojure, vim, Computer Science...
 
 
 email: **lidashuang@sdutlinux.org**
