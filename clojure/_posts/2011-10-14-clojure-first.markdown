@@ -20,7 +20,30 @@ REPL是clojure的解释器环境(read/eval/print/loop)，类似于python的IDLE 
 提示符:
 	Clojure 1.3.0
 	user=>
+
 #hello world 
 	user=>(println "Hello world")
 	"Hello world"
-	
+
+#数据类型
+
+clojure 是一门动态类型的语言。意味着你不必在你的程序里明确定义函数，符号参数等的类型。   
+但是这些值也有自己的类型。 
+
+##clojure 内建类型
+
+* __number__	  普通数字			example: 16
+* __String__	  字符串			example: "hello!"
+* __Boolean __	  bool类型			example: ture 
+* __Character__	  字符前有反斜杠    example:  \a
+* __Keyword __	  关键字以冒号开头  example: :key
+* __List __		  列表圆括号        example: '(1 2 3)
+* __Vector__	  向量中括号		example: [1 2 3]
+* __Map__		  键值对			example: {:kel val :key val}
+* __Set__		  大括号前有井号    example: #{1 2 3}
+
+##NIL
+nil 表示nothing或novlaue 
+nil 等同于java里的null
+
+
