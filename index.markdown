@@ -33,23 +33,5 @@ A [feed][] of the most recent posts is also available.
 <p>
 <a href="past.html">Older Posts &rarr;</a>
 </p>
-<!--
 Reading 
   <script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=dolist&amp;n=9&amp;columns=9&amp;cat=book" ></script>
-  <div id="footer">
-	<address>
-		<span class="copyright">
-			Content &amp; 
-			<a href="/">lidashuang</a>
-			<br/>
-			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)			
-		</span>
-		<span class="engine">
-			Powered by 
-			<a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
-			<a href="http://www.vim.org">vim</a>
-			<a href="https://github.com">git&gitub</a>
-		</span>
-	</address>
-  </div>
--->
