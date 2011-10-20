@@ -18,6 +18,8 @@ About Me
 
 email: **lidashuang@sdutlinux.org**
 
+Reading 
+  <script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=dolist&amp;n=9&amp;columns=9&amp;cat=book" ></script>
 
 
 [jekyll]: http://github.com/mreid/jekyll/

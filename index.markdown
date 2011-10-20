@@ -32,6 +32,4 @@ A [feed][] of the most recent posts is also available.
 
 <p>
 <a href="past.html">Older Posts &rarr;</a>
-Reading 
-  <script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=dolist&amp;n=9&amp;columns=9&amp;cat=book" ></script>
 </p>
