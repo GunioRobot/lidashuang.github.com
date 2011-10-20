@@ -1,7 +1,6 @@
 ---
 title: About
 section: Info
-
 layout: blog
 
 ---
@@ -12,16 +11,12 @@ About Me
 <a href="http://www.yupoo.com/photos/lidashuang/83177597/" title="p_large_DPMh_097000082cc95c44"><img src="http://pic.yupoo.com/lidashuang/Bsd1wKDt/thumb.jpg" alt="p_large_DPMh_097000082cc95c44" width="87" height="100" border="0" /></a></br>
 
 
-计算机科学与技术专业，热爱技术，喜欢分享，交流。
+计算机科学与技术专业，热爱技术，喜欢分享，交流。	  
 兴趣 linux c python clojure vim ...
 
 
 email: **lidashuang@sdutlinux.org**
 
-Reading 
-<div>
-  <script type="text/javascript" src="http://www.douban.com/service/badge/lidashuang/?show=dolist&amp;n=9&amp;columns=9&amp;cat=book" ></script>
-</div>
 
 [jekyll]: http://github.com/mreid/jekyll/
 [markdown]: http://daringfireball.net/projects/markdown/
