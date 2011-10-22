@@ -38,8 +38,8 @@ clojure 是一门动态类型的语言。意味着你不必在你的程序里明
 * __Character__	  字符前有反斜杠    example:  \a
 * __Keyword __	  关键字以冒号开头  example: :key
 * __List __		  列表圆括号        example: '(1 2 3)
-* __Vector__	  向量中括号		example: [1 2 3]
-* __Map__		  键值对			example: {:kel val :key val}
+* __Vector__	  向量中括号		example: \[1 2 3\]
+* __Map__		  键值对			example: \{:kel val :key val\}
 * __Set__		  大括号前有井号    example: #{1 2 3}
 
 ##NIL
