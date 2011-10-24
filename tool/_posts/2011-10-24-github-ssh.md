@@ -1,6 +1,6 @@
 ---
 title: 多个github帐号问题解决
-excerpt:fatal: The remote end hung up unexpectedly 解决 
+excerpt: fatal: The remote end hung up unexpectedly 解决 
 layout: blog-post
 ---
 
