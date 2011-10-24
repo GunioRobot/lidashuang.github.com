@@ -22,6 +22,8 @@ github.com使用ssh公匙认证。一台如果使用多个github的帐号提交�
     IdentityFile  /home/lidashuang/.ssh/dashuang_rsa
 
 第二个帐号添加远程仓库方式
-	git remote add test git@github-second:second/test.git #并非原来的git@github.com:second/test.git
+
+	git remote add test git@github-second:second/test.git 
+	并非原来的git@github.com:second/test.git
 
 
