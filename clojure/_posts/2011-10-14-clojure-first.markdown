@@ -46,4 +46,6 @@ clojure 是一门动态类型的语言。意味着你不必在你的程序里明
 nil 表示nothing或novlaue 
 nil 等同于java里的null
 
+#vim 高亮
 
+[vim高亮插件](http://www.vim.org/scripts/script.php?script_id=2501)

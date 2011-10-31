@@ -2,7 +2,6 @@
 layout: blog
 title: Home
 section: Home
-
 feed: atom.xml
 keywords: lidashuang, Blog
 ---
