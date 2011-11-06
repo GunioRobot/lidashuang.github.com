@@ -46,7 +46,7 @@ a 和 b指向同一内存地址，c指向了另一块不同的内存地址。
 
 现在我们想复制a指向的列表，我们需要创建一个新的列表并给它加上标签b。  
 
-![list2](http://pic.yupoo.com/lidashuang/BuYEgDjv/medish.jpg list2)
+![list2](http://pic.yupoo.com/lidashuang/BuYEgDjv/medish.jpg "list2")
 
 回到 b = a[:] ,操作符[:] 返回序列的切片。切片会创建一个新的列表，并提制原来列表的一部分   
 到新列表中。   
