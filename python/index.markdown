@@ -14,7 +14,7 @@ lidashuang's note code and so on
 Recent Posts
 ------------
 
-{% for post in site.categories.tool limit:10 %}
+{% for post in site.categories.python limit:10 %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
