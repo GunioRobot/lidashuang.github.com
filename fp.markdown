@@ -4,8 +4,8 @@ title: git
 
 ---
 
-#Git&Github
+#Function programming 
 
-{% assign category_posts = site.categories.git %}
+{% assign category_posts = site.categories.fp %}
 
 {% include category_page.markdown %}
