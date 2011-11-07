@@ -2,6 +2,8 @@
 title: 多个github帐号问题解决
 excerpt: fatal The remote end hung up unexpectedly 解决 
 layout: blog-post
+category: git
+
 ---
 
 github.com使用ssh公匙认证。一台如果使用多个github的帐号提交会出现权限问题，不能提交。

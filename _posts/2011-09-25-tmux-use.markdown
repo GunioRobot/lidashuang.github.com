@@ -1,11 +1,9 @@
 ---
 title: tmux 使用
-
 excerpt:  tmux 是一个与 GNU screen 类似的程序，可作为后者的替代品使用。
-
 location: 
-
 layout: blog-post
+category: linux 
 
 ---
 

@@ -3,6 +3,8 @@ title: 小组买书
 excerpt: 2011/10/28小组买书记录
 location: 
 layout: blog-post
+category: group
+
 ---
 
 书箱订单目录

@@ -1,11 +1,9 @@
 ---
 title: linux 小组第二次技术聚会
-
 excerpt:  linux小组的第二次技术交流会，核心成员交流会。
-
 location: 
-
 layout: blog-post
+category: group
 
 ---
 

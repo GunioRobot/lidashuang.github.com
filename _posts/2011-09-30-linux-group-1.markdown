@@ -1,11 +1,9 @@
 ---
 title: linux 小组第一次技术聚会
-
 excerpt:  第五周周四晚上，linux小组的第一次技术交流会，大约有十几个热爱技术的同学参加。
-
 location: 
-
 layout: blog-post
+category: group
 
 ---
 
