@@ -2,6 +2,8 @@
 title: 博客代码高亮
 excerpt: github gist
 layout: blog-post
+category: git
+
 ---
 **gist**
 github的gist功能可以贴一些代码。还可以嵌入到博客里，不用自己找插件，开高亮之类的。

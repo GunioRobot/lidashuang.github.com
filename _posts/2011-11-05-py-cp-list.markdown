@@ -3,6 +3,7 @@ title: python列表复制
 excerpt: 在python里正确复制列表操作
 location: python
 layout: blog-post
+category: python
 --- 
 	new = old[:]
 大部人会用上面的方法复制列表,将old列表复制给new 。 这种方法也是用的最多的。   
