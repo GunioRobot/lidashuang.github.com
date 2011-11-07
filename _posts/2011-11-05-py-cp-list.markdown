@@ -11,9 +11,13 @@ layout: blog-post
 
 首先，我们需要明白python是怎么管理对象和变量的。在python中，变量就是附加在对象的标签。    
 例如下面的程序   
+
 	a = [1,2,3]
+
 这表示a指向了我们创建的列表[1,2,3] 但a不是列表。如果:   
+
 	b = a
+
 这并没有复制列表a给b,只是创建了个指向列表\[1,2,3\] 的标签b。就像下面的图：
 
 ![list](http://pic.yupoo.com/lidashuang/BuYEgneb/medish.jpg "list")
