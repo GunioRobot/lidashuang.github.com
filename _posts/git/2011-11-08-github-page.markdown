@@ -57,6 +57,20 @@ jekyll会自动转换成相应的html文件。当然也可以在本地搭建相�
 ## jekyll 处理规则
 
 目录结构
+</pre>
+.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   `-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   `-- 2009-04-26-barcamp-boston-4-roundup.textile
+|-- _site
+`-- index.html
+</pre>
+
 
 \_config.yml  
 存储了一些设置，大部分的设置都可以通过命令行指定，但放到配置文件里更方便些
