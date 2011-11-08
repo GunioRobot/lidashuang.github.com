@@ -25,7 +25,7 @@ github.com的[jekyll](https://github.com/mojombo/jekyll)是个简单的用于生
 
 现在就可以访问http://lidashuang.github.com      
 
-## 绑定域名
+# 绑定域名
 
 1. 将你的域名的ip指向 207.97.227.245
 1. 在你版本库目录下创建CNAME文件，并写上你的域名。 
@@ -38,13 +38,13 @@ jekyll会自动转换成相应的html文件。当然也可以在本地搭建相�
 中的文件，以获取博客文章的列表。每篇文章文件标题里包括有，最终生成静态HTML文    
 件的发布日期和略缩名（slug，出现在URL中的名字）		
 
-## 安装jekyll相应工具
+# 安装jekyll相应工具
 
 安装好ruby环境及相应的依赖包，用ruby的包管理工具直接安装。   
 	
 	gem install jekyll 
 
-## 使用
+# 使用
 
 在版本库目录运行 
 
@@ -54,10 +54,10 @@ jekyll会自动转换成相应的html文件。当然也可以在本地搭建相�
 临时文件。 可以.gitingore 里配置，不在版本库里添加此类文件。		
 
 
-## jekyll 处理规则
+# jekyll 处理规则
 
 目录结构		
-</pre>
+<pre>
 .
 |--\_config.yml			
 |-- \_includes			
