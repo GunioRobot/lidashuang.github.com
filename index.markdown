@@ -19,7 +19,7 @@ A [feed][] of the most recent posts is also available.
 最近更新
 ------------
 
-{% for post in site.posts limit:10 %}
+{% for post in site.posts limit:6 %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
