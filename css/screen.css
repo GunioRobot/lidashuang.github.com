@@ -21,7 +21,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family: Palatino, georgia, "times new roman", serif;
+	/* font-family: Palatino, georgia, "times new roman", serif;*/
+	font-family: Purisa, TextMate, "Comic Sans MS", "Ubuntu";
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
