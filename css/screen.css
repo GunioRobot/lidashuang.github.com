@@ -21,7 +21,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family: Purisa, TextMate, "Comic Sans MS", "Ubuntu";
+    font-family: Palatino, georgia, "times new roman", serif;
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
@@ -224,7 +224,7 @@ ul.compact li a {
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
-    font-family: Palatino, georgia, "times new roman", serif;
+	font-family: Purisa, TextMate, "Comic Sans MS", "Ubuntu";
 	position: relative;
 	font-variant: small-caps;
 	line-height: 1em;
