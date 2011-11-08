@@ -224,6 +224,7 @@ ul.compact li a {
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
+	font-family: Purisa, TextMate, "Comic Sans MS", "Ubuntu";
 	position: relative;
 	font-variant: small-caps;
 	line-height: 1em;
@@ -232,7 +233,6 @@ ul.compact li a {
 }
 #header h1 {
 /*	font-family: Palatino, georgia, "times new roman", serif;*/
-	font-family: Purisa, TextMate, "Comic Sans MS", "Ubuntu";
 	margin-bottom: 0;
 	line-height: 0.9em;
 	display: block;
