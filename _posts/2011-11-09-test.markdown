@@ -1,0 +1,9 @@
+---
+title: test
+excerpt: test
+location: 
+layout: blog-post
+category: django
+
+
+---
