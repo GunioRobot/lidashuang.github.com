@@ -1,13 +1,13 @@
 ---
 title: github上搭建自己的博客
 excerpt: 在github上搭建博客，用git管理博客
-location: git
 layout: blog-post
 category: git
 
 --- 
 
 github.com的[jekyll](https://github.com/mojombo/jekyll)是个简单的用于生成静态站点的工具。     
+  
 所有的文章会生成静态的html文件，关键是这东西可以放在github上，可以绑定自己的域名,    
 有稳定的服务器给你。支持rss,评论，代码高亮。符合程序员的口味。		
 
@@ -23,7 +23,7 @@ github.com的[jekyll](https://github.com/mojombo/jekyll)是个简单的用于生
 1. 在本地clone刚创建的版本库，创建index.html 添加点内容。
 1. push 到github的远程版本库。
 
-现在就可以访问http://lidashuang.github.com      
+现在就可以访问<http://lidashuang.github.com> 
 
 # 绑定域名
 
@@ -32,9 +32,7 @@ github.com的[jekyll](https://github.com/mojombo/jekyll)是个简单的用于生
 
 # jekyll
 
-jekyll 不是服务器，只是一个转换工具。只要将你写好的结构化文本push到github上，   
-jekyll会自动转换成相应的html文件。当然也可以在本地搭建相应的环境，写好的结构   	
-化文本，直接就可以查看转换成网页后的效果。Jekyll解析（parsing）在\_posts目录   
+jekyll 不是服务器，只是一个转换工具。当然也可以在本地搭建相应的环境，写好的结构      	化文本，直接就可以查看转换成网页后的效果。Jekyll解析（parsing）在\_posts目录   
 中的文件，以获取博客文章的列表。每篇文章文件标题里包括有，最终生成静态HTML文    
 件的发布日期和略缩名（slug，出现在URL中的名字）		
 
@@ -50,27 +48,13 @@ jekyll会自动转换成相应的html文件。当然也可以在本地搭建相�
 
 	jekyll --server 
 
-打开浏览器，http://127.0.0.1:4000 访问。这会在目录里生成\_site 文件夹，存放   
+打开浏览器，<http://127.0.0.1:4000> 访问。这会在目录里生成\_site 文件夹，存放   
 临时文件。 可以.gitingore 里配置，不在版本库里添加此类文件。		
 
 
 # jekyll 处理规则
 
 目录结构		
-<pre>
-.
-|--\_config.yml			
-|-- \_includes			
-|-- \_layouts		
-|   |-- default.html		
-|   `-- post.html		
-|-- \_posts		
-|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile		
-|   `-- 2009-04-26-barcamp-boston-4-roundup.textile		
-|-- \_site		
-`-- index.html		
-</pre>
-
 
 \_config.yml      
 存储了一些设置，大部分的设置都可以通过命令行指定，但放到配置文件里更方便些
@@ -89,33 +73,41 @@ index.html
 这个文件也有一个yaml前缀 ，可以指定使用哪个模板，标题等等，所有根文件夹下的		
 .html/.htm/.textile/.markdown都会被解析。
 
-other files/folders
+other files/folders    
 上面没有列出的文件/文件夹都会被jekyll放到\_site文件夹下，如css/image/script等等。		
 
 # 一些函数
 
 循环输出 3 篇文章			
-
+<pre>
 	for post in site.posts limit:3
 	endfor
+</pre>
 
 循环输出最近 3 篇		
 
+<pre>
 	for post in site.posts offset:3 limit:3
 	endfor
+</pre>
 
 日期
 
+<pre>
 	page.date | date:"%B %b, %Y"
+</pre>
 
 分页输出
 
+<pre>
 	for post in paginator.posts
 	  content
 	  endfor
+</pre>
 
 分页
 
+<pre>
 	  if paginator.previous_page
 	    //判断输出前一个分页
 	    //"page" + paginator.previous_page
@@ -133,9 +125,11 @@ other files/folders
 	     //"page" + page
 	  endif
 	  endfor
+</pre>
 
 文章页面显示前一篇文章和后一篇文章
 
+<pre>
 	if page.previous
 		//url:    page.previous.url
 		//title:  page.previous.title | truncatewords:5
@@ -143,17 +137,24 @@ other files/folders
 	if page.next
 	//url:    page.next.url
 	//title:  page.next.url | truncatewords:5
+</pre>
 
 
 # 语法高亮 
 
 github 默认是支持代码高亮的。使用方法    
 
-	{% highlight ruby %s}
+<pre>
+
+{% highlight ruby %}
+
 	def foo
 	  puts 'foo'
 	end
-	{% endhighlight %}
+
+{% endhighlight %}
+
+</pre>
 
 highlight 后边是语言，也可以python,java等等。支持很多种高亮，具体   
 可以在这查看 http://pygments.org/docs/lexers/		
