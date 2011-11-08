@@ -4,7 +4,9 @@ excerpt: 在github上搭建博客，用git管理博客
 location: 
 category: git
 layout: blog-post
+
 --- 
+
 github出的[jekyll](https://github.com/mojombo/jekyll)是个简单的用于生成静态站点的工具。     
 所有的文章会生成静态的html文件，关键是这东西可以放在github上，可以绑定自己的域名,    
 有稳定的服务器给你。支持rss,评论，代码高亮。符合程序员的口味。
