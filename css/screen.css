@@ -25,6 +25,7 @@ body {
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
+	background: #fff url(legend.gif) no-repeat fixed right 130px;
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
