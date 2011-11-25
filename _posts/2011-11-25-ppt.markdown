@@ -1,0 +1,33 @@
+---
+title: 幻灯片工具分享
+excerpt:  landslide s5 pinpoint ...
+location: 
+layout: blog-post
+category: tool
+---
+
+* s5 
+S5: A Simple Standards-Based Slide Show System    
+具体效果可以看这个[demo](/s5/s5/s5.html) 强烈建议在firefox下，获得更好的体验    
+[主页](http://meyerweb.com/eric/tools/s5/)
+一些资源:
+[主题](http://www.netzgesta.de/S5/)
+[docutils](http://docutils.sourceforge.net/docs/user/tools.html)    
+docutils 是些用python写成的工具包，其中有个rst2s5的工具，可以将你写成的rst文件(reStructuredText)   
+转换成s5的幻灯片。    
+* landslide 
+个人认为这个比较炫一些   
+[主页](https://github.com/adamzap/landslide)      
+[demo](http://adamzap.com/random/landslide.html#slide1)    
+特性：   
+可以用[markdown](http://daringfireball.net/projects/markdown/syntax),[ReStructuredText](http://docutils.sourceforge.net/rst.html) 的语法来写。    
+基于html5    
+可以导出为pdf    
+* pinpoint 
+Pinpoint 是一款利用 Clutter 实现的演示文档软件，使用标记式语法的纯文本文件来创建演示文档。    
+pinpoint 的git仓库     
+[pinpoint git](http://git.gnome.org/browse/pinpoint/)    
+linuxtoy.org有个介绍 http://linuxtoy.org/archives/pinpoint.html      
+
+
+
