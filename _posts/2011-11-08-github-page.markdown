@@ -156,13 +156,13 @@ github 默认是支持代码高亮的。使用方法
 
 <pre>
 
-{% highlight ruby %}
+\{\% highlight ruby \%\}
 
 	def foo
 	  puts 'foo'
 	end
 
-{% endhighlight %}
+\{\% endhighlight \%\}
 
 </pre>
 
