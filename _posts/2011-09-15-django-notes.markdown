@@ -4,9 +4,8 @@ excerpt: django 中css,js,image文件处理
 location: 
 layout: blog-post
 category: django
-
-
 ---
+
 django notes
 
 
