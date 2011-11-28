@@ -12,9 +12,11 @@ fn定义函数
 
 例如在REPL中执行下面的代码，函数fn 后面是在vector数据结构里的两个参数，后边是函数体      
 最后返回一个函数。    
+{% highlight clojure %}
 
 	user=> (fn [x,y](+ x y))
 	#<user$eval__1$fn__3 user$eval__1$fn__3@1e808ca>
+{% endhighlight %}
 
 现在我们可以将这个函数绑定到一个符号，以便我们能使用这个函数      
 
