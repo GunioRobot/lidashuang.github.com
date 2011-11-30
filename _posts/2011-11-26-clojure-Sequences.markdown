@@ -3,7 +3,7 @@ title: clojure里的序列操作
 excerpt: 
 location: 
 layout: blog-post
-category: cl
+category: clojure
 
 ---
 

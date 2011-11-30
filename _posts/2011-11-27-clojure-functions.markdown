@@ -3,7 +3,7 @@ title: clojure函数
 excerpt: clojure 函数学习笔记
 location: 
 layout: blog-post
-category: clj
+category: clojure
 
 ---
 
