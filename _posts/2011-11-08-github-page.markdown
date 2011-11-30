@@ -89,57 +89,46 @@ http://qingbo.net/picky/502-markdown-syntax.html
 # 一些函数
 
 循环输出 3 篇文章			
-<pre>
 	for post in site.posts limit:3
 	endfor
-</pre>
 
 循环输出最近 3 篇		
 
-<pre>
 	for post in site.posts offset:3 limit:3
 	endfor
-</pre>
 
 日期
 
-<pre>
 	page.date | date:"%B %b, %Y"
-</pre>
 
 分页输出
 
-<pre>
 	for post in paginator.posts
 	  content
-	  endfor
-</pre>
+	endfor
 
 分页
 
-<pre>
-	  if paginator.previous_page
+	if paginator.previous_page
 	    //判断输出前一个分页
 	    //"page" + paginator.previous_page
-	  endif
-	  if paginator.next_page
+	endif
+	if paginator.next_page
 	    //判断输出后一个分页
 	    //"page" + paginator.next_page
-	  endif
-	  for page in (1..paginator.total_pages)
-	  if page == paginator.page
+	endif
+	for page in (1..paginator.total_pages)
+	if page == paginator.page
 	       //如果是当前分页
 	       //page
-      else
+	else
 	     //不是的话输出其他分页链接号码
 	     //"page" + page
-	  endif
-	  endfor
-</pre>
+	endif
+	endfor
 
 文章页面显示前一篇文章和后一篇文章
 
-<pre>
 	if page.previous
 		//url:    page.previous.url
 		//title:  page.previous.title | truncatewords:5
@@ -147,24 +136,12 @@ http://qingbo.net/picky/502-markdown-syntax.html
 	if page.next
 	//url:    page.next.url
 	//title:  page.next.url | truncatewords:5
-</pre>
 
 
 # 语法高亮 
 
-github 默认是支持代码高亮的。使用方法    
+github 默认是支持代码高亮的。
 
-<pre>
-
-\{% highlight ruby %\}
-
-	def foo
-	  puts 'foo'
-	end
-
-\{% endhighlight %\}
-
-</pre>
 
 highlight 后边是语言，也可以python,java等等。支持很多种高亮，具体   
 可以在这查看 http://pygments.org/docs/lexers/		
