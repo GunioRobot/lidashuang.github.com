@@ -4,7 +4,9 @@ excerpt: clojure 函数学习笔记
 location: 
 layout: blog-post
 category: clj
+
 ---
+
 clojure 函数学习笔记
 
 fn定义匿名函数
