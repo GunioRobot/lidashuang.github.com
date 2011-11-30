@@ -62,10 +62,9 @@ clojure提供了一个函数绑定到符号的快捷方法defn,函数体中最�
 
 * if语句	    
 <pre>
-	(println (if  (<  34  100)  "yes" ))
-	; => yes
+(println (if  (<  34  100)  "yes" ))
+; => yes
 </pre>
-
 如要第一个if逻辑语句错误，你又指定else语句，则返回nil     
 
 	(if  (<  50000  100)  "yes" )
@@ -73,7 +72,7 @@ clojure提供了一个函数绑定到符号的快捷方法defn,函数体中最�
 
 * if-not
 <pre>
-	(if-not test consequent alternative?)
+(if-not test consequent alternative?)
 </pre>
 
 如果test 是false,consequent会被执行，否则执行alternative     
@@ -81,20 +80,20 @@ clojure提供了一个函数绑定到符号的快捷方法defn,函数体中最�
 *  cond, condp     
 cond 相当于case语句 例如：    
 <pre>
-	(def x 10)
-	(cond
-	(< x 0) (println "Negative!")
-	(= x 0) (println "Zero!"))
-	; => nil
+(def x 10)
+(cond
+(< x 0) (println "Negative!")
+(= x 0) (println "Zero!"))
+; => nil
 </pre>
 都不符合条件时，返回nil,可以用:default 指定默认不符合条件时的默认规则         
-
-	(cond
-	(< x 0) (println "Negative!")
-	(= x 0) (println "Zero!")
-	:default (println "Positive!"))
-	; => Positive!
-
+<pre>
+(cond
+(< x 0) (println "Negative!")
+(= x 0) (println "Zero!")
+:default (println "Positive!"))
+; => Positive!
+</pre>
 cond  中每个case条件都是一个测试的语句    
 
 condp宏
@@ -121,7 +120,7 @@ condp 比较类似其他语言里的case语句
 when比较类似天if, 不同的是when 没有 else 条件， 
 	
 <pre>
-	(when true "do-this-first" "then-that" "finally this") ; => "finally this"
+(when true "do-this-first" "then-that" "finally this") ; => "finally this"
 </pre>
 
 when-not 与 when相反，当false的时候，后边的表达式会被执行     
@@ -133,9 +132,9 @@ when-not 与 when相反，当false的时候，后边的表达式会被执行
 do 会执行序列中的所有表达式      
 	
 <pre>
-	(do (println "Hello.") (+ 2 2))
-	Hello.
-	4
+(do (println "Hello.") (+ 2 2))
+Hello.
+4
 </pre>
 
 什么时候用do呢？当我们使用if的时候，只会执行其中的一条表达式语句，可以用do执行多条语句      
