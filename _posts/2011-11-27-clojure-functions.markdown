@@ -61,23 +61,24 @@ clojure提供了一个函数绑定到符号的快捷方法defn,函数体中最�
 -----------------------------
 
 * if语句	    
-	
+
 	(println (if  (<  34  100)  "yes" ))
 	; => yes
-	
+
 如要第一个if逻辑语句错误，你又指定else语句，则返回nil     
-	
+
 	(if  (<  50000  100)  "yes" )
 	; => nil
-	
+
 * if-not
-	
+
 	(if-not test consequent alternative?)
-	
+
 如果test 是false,consequent会被执行，否则执行alternative     
 
 *  cond, condp
 cond 相当于case语句 例如：    
+
 	(def x 10)
 	(cond
 	(< x 0) (println "Negative!")
@@ -142,6 +143,6 @@ do 会执行序列中的所有表达式
 
 
 参考
-* [http://clojure-notes.rubylearning.org/ clojure-notes]
-* [http://shu.im/books/4e9af8976cccb37698000531 Practical Clojure]
+*  [clojure-notes](http://clojure-notes.rubylearning.org/)
+* [Practical Clojure](http://shu.im/books/4e9af8976cccb37698000531)
 
