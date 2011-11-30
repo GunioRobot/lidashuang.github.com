@@ -60,36 +60,30 @@ clojure提供了一个函数绑定到符号的快捷方法defn,函数体中最�
 控制结构 if if-not 
 -----------------------------
 
-* if语句	    
-
-{% highlight clojure %}
+if    
 	(println (if  (<  34  100)  "yes" ))
 	; => yes
-{% endhighlight %}
 
 如要第一个if逻辑语句错误，你又指定else语句，则返回nil     
 
 	(if  (<  50000  100)  "yes" )
 	; => nil
 
-* if-not
-<pre>
-(if-not test consequent alternative?)
-</pre>
+if-not
+
+	(if-not test consequent alternative?)
 
 如果test 是false,consequent会被执行，否则执行alternative     
 
 *  cond, condp     
-cond 相当于case语句 例如：    
+cond 相当于case语句 例如     
 
-{% highlight clojure %}
 	(def x 10)
 	(cond
 	(< x 0) (println "Negative!")
 	(= x 0) (println "Zero!"))
 	; => nil
 
-{% endhighlight %}
 都不符合条件时，返回nil,可以用:default 指定默认不符合条件时的默认规则         
 	(cond
 	(< x 0) (println "Negative!")
