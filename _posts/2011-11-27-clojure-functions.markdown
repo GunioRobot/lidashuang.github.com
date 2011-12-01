@@ -118,7 +118,7 @@ condp 比较类似其他语言里的case语句
 
 * when,when-not 
 when比较类似天if, 不同的是when 没有 else 条件， 
-	
+
 	(when true "do-this-first" "then-that" "finally this") ; => "finally this"
 
 when-not 与 when相反，当false的时候，后边的表达式会被执行     
@@ -127,21 +127,20 @@ when-not 与 when相反，当false的时候，后边的表达式会被执行
 	(when-not false "do-this-first" "then-that" "finally this") ; => "finally this"
 
 * do 
-do 会执行序列中的所有表达式      
-	
+do 会执行序列中的所有表达式  		    
+
 	(do (println "Hello.") (+ 2 2))
-	Hello.
-	4
+	Hello.			
+	4			
 	
 什么时候用do呢？当我们使用if的时候，只会执行其中的一条表达式语句，可以用do执行多条语句      
 
-	(if (odd? 3) (println "First true form") (println "Second true form (will not print)")) ;
-	=> First true form
+	(if (odd? 3) (println "First true form") (println "Second true form (will not print)")) ;				
+	=> First true form			
 
-	(if (odd? 3) (do (println "First true form") (println "Second true form (will print)")))
-	; => First true form
-	; => Second true form (will print)
-
+	(if (odd? 3) (do (println "First true form") (println "Second true form (will print)")))			
+	; => First true form			
+	; => Second true form (will print)				
 
 参考    
 * [clojure-notes](http://clojure-notes.rubylearning.org/)
