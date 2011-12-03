@@ -22,8 +22,10 @@ seq
 seq 接受一个序列，返回一个序列或者是返回nil,大多数操作序列函数    
 会自动调用这个函数对序列处理。     
 
+{% highlight clj %}
 	(seq [1 2 3]) ; => (1 2 3)
 	(seq [ ]) ; => nil
+{% endhighlight %}
 
 first 
 --------------
@@ -33,8 +35,10 @@ first
 
 example: 
 	
+{% highlight clj %}
 	(first [34 23 15]) ; => 34
 	(first [ ]) ; => nil
+{% endhighlight %}
 
 rest 
 ----------
@@ -42,15 +46,19 @@ rest
 
 example: 
 	
+{% highlight clj %}
 	(rest [34 23 15]) ; => (23 15)
 	(rest [ ]) ; => ()
+{% endhighlight %}
 cons
 --------
 可以用这个函数构造新的序列通过对先前的序列添加元素     
 
 example:
 
+{% highlight clj %}
 	(cons 1 [2 3 4]) ; => (1 2 3 4)
+{% endhighlight %}
 
 next 
 --------------
@@ -59,8 +67,10 @@ next会返回第一个元素以后的所有元素
 
 example:
 
+{% highlight clj %}
 	(next [1 2 3 4]) ; => (2 3 4)
 	(next [ ]) ; => nil
+{% endhighlight %}
 
 conj,into 
 --------------
@@ -71,14 +81,18 @@ conj将一个或多个元素添加到序列中，而into是将一个序列中
 
 对列表操作时会将元素添加到前面的位置。	
 example:
+{% highlight clj %}
 	(conj  '(10  20  30)  :a) ; => (:a 10 20 30)
 	(into  '(10  20  30)  '(:a  :b  :c)) ; => (:c :b :a 10 20 30)
+{% endhighlight %}
 
 对向量操作时，会将元素添加到后边
 example:
 
+{% highlight clj %}
 	(conj  [10  20  30]  :a) ; => [10 20 30 :a]
 	(into  [10  20  30]  [:a  :b  :c]) ; => [10 20 30 :a :b :c]
+{% endhighlight %}
 
 range 
 ----------
@@ -86,8 +100,10 @@ range
 
 example:
 	
+{% highlight clj %}
 	(range  10  20  2) ; => (10 12 14 16 18)
 	(range 1 10) ;=>(1 2 3 4 5 6 7 8 9)
+{% endhighlight %}
 
 repeat 
 ---------
@@ -95,7 +111,9 @@ repeat
 
 example:
 	
+{% highlight clj %}
 	(repeat  5  "p") ; => ("p" "p" "p" "p" "p")
+{% endhighlight %}
 
 iterate, take
 --------------
@@ -106,7 +124,9 @@ iterate 会将一个函数f作用于x,x是一个起始值， 没有终点
 而take 取得序列的前n个元素,take进行的是惰性求值        
 example: 
 	
+{% highlight clj %}
 	(take  10  (iterate  inc  1)) ; => (1 2 3 4 5 6 7 8 9 10)
+{% endhighlight %}
 	
 concat 
 -----------
@@ -114,8 +134,10 @@ concat
 
 example:
 	
+{% highlight clj %}
 	(concat [22 "green" false] [33 44]) ; => (22 "green" false 33 44)
 	(concat #{22 "green" false} '(33 44)) ; => ("green" false 22 33 44)
+{% endhighlight %}
 
 
 参考    
