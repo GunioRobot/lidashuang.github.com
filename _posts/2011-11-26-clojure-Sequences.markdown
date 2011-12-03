@@ -118,6 +118,10 @@ example:
 	(concat #{22 "green" false} '(33 44)) ; => ("green" false 22 33 44)
 
 
+参考    
+* [clojure-notes](http://clojure-notes.rubylearning.org/)
+* [Practical Clojure](http://shu.im/books/4e9af8976cccb37698000531)
+
 
 
 
