@@ -15,7 +15,8 @@ About Me
 兴趣 linux, c, python, clojure, vim, Computer Science...
 
 
-email: ![mail](/css/image.png)
+email:   
+![mail](/css/image.png)
 
 
 [jekyll]: http://github.com/mreid/jekyll/
