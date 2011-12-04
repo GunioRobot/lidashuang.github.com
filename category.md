@@ -14,3 +14,4 @@ Categorys
 * [git](/git.html)
 * [django](/django.html)
 * [linux](/linux.html)
+* [ppt](/talks.html)
