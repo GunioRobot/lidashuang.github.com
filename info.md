@@ -8,14 +8,14 @@ layout: blog
 About Me
 ===========================
 
-<a href="http://www.yupoo.com/photos/lidashuang/83177597/" title="p_large_DPMh_097000082cc95c44"><img src="http://pic.yupoo.com/lidashuang/Bsd1wKDt/thumb.jpg" alt="p_large_DPMh_097000082cc95c44" width="87" height="100" border="0" /></a></br>
+<img src="http://pic.yupoo.com/lidashuang/Bsd1wKDt/thumb.jpg" alt="p_large_DPMh_097000082cc95c44" width="87" height="100" border="0" /></br>
 
 
 计算机科学与技术专业，热爱技术，喜欢分享，交流。	  
 兴趣 linux, c, python, clojure, vim, Computer Science...
 
 
-email: **lidashuang@sdutlinux.org**
+email: ![mail](/css/image.png)
 
 
 [jekyll]: http://github.com/mreid/jekyll/
